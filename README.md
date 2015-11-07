@@ -16,7 +16,7 @@ Several distinct licenses are used for the templates in this repository because 
     - `default.css`
     - `README.md`
 
-The BSD 3-clause license and MIT license are reproduced below for convenience.
+The BSD 3-clause license and MIT license are reproduced below for compliance.
 
 ### BSD 3-clause license
 
