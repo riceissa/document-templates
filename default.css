@@ -1,0 +1,93 @@
+/*
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any means.
+
+In jurisdictions that recognize copyright laws, the author or authors of
+this software dedicate any and all copyright interest in the software to
+the public domain. We make this dedication for the benefit of the public
+at large and to the detriment of our heirs and successors. We intend
+this dedication to be an overt act of relinquishment in perpetuity of
+all present and future rights to this software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org/>.
+*/
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "Bitstream Charter", Georgia, Times, serif;
+    line-height: 1.4;
+    margin: 2em auto;
+    max-width: 35em;
+    text-align: left;
+    width: 93%;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: "Lato", Helvetica, sans-serif; }
+h2 { border-bottom: 1px solid #ccc; }
+
+hr {
+    border: 0 none; /* must be first */
+    border-bottom: 1px solid #ccc;
+    border-top: 2px solid #ccc;
+    height: 4px;
+}
+
+a { text-decoration: none; }
+a:link { color: #0645AD; } /* from Wikipedia as of 2015 */
+a:visited { color: #7C7CA6; }
+a:hover, a:active { text-decoration: underline; }
+
+blockquote {
+    border-left: 4px solid #ccc;
+    color: #444;
+    margin: 0px;
+    padding: 0px 0px 0px 16px; /* top right bottom left */
+}
+
+code {
+    background-color: #eee;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2em;
+    max-height: 30em;
+    overflow: auto;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: #ccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+table th {
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+}
+
+table td {
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+}

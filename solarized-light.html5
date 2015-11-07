@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html$if(lang)$ lang="$lang$"$endif$$if(dir)$ dir="$dir$"$endif$>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+$for(author-meta)$
+  <meta name="author" content="$author-meta$">
+$endfor$
+$if(date-meta)$
+  <meta name="dcterms.date" content="$date-meta$">
+$endif$
+$if(keywords)$
+  <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$">
+$endif$
+  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <style type="text/css">code{white-space: pre;}</style>
+$if(quotes)$
+  <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
+$endif$
+  <style type="text/css">
+    body{background:#fdf6e3;color:#586e75;font-family:"Bitstream Charter",Georgia,Times,serif;line-height:1.4;margin:2em auto;max-width:35em;text-align:left;width:93%;word-wrap:break-word}h1,h2,h3,h4,h5,h6{font-family:"Lato",Helvetica,sans-serif}h2{border-bottom:1px solid #93a1a1}hr{border:0 none;border-bottom:1px solid #93a1a1;border-top:2px solid #93a1a1;height:4px}a{text-decoration:none}a:link{color:#268bd2}a:visited{color:#2aa198}a:hover,a:active{text-decoration:underline}blockquote{border-left:4px solid #93a1a1;color:#657b83;margin:0;padding:0 0 0 16px}code{background-color:#eee8d5;padding-left:4px;padding-right:4px}pre code{display:block;line-height:1.2em;max-height:30em;overflow:auto;padding:10px}table{border-collapse:collapse;border-color:#93a1a1;border-width:1px;width:100%}table th{border-color:#93a1a1;border-style:solid;border-width:1px;padding:3px}table td{border-color:#93a1a1;border-style:solid;border-width:1px;padding:3px}.sourceCode span.kw{color:#859900}.sourceCode span.dt{color:#b58900}.sourceCode span.dv{color:#2aa198}.sourceCode span.bn{color:#2aa198}.sourceCode span.fl{color:#2aa198}.sourceCode span.ch{color:#859900}.sourceCode span.st{color:#2aa198}.sourceCode span.co{color:#93a1a1;font-style:italic}.sourceCode span.ot{color:#cb4b16}.sourceCode span.al{color:#dc322f}.sourceCode span.fu{color:#268bd2}.sourceCode span.er{color:#dc322f;font-weight:bold}.sourceCode span.wa{color:#cb4b16;font-weight:italic}.sourceCode span.cn{color:#b58900}.sourceCode span.sc{color:#b58900}.sourceCode span.im{color:#cb4b16}.sourceCode span.cf{color:#859900}.sourceCode span.op{color:#859900}.sourceCode span.bu{color:#268bd2}.sourceCode span.re{color:#b58900}
+  </style>
+$if(math)$
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      "HTML-CSS": {
+        // TeX font has better spacing on Linux browsers
+        availableFonts: ["TeX"],
+        preferredFont: "TeX"
+      }
+    });
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+$endif$
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+$for(header-includes)$
+  $header-includes$
+$endfor$
+</head>
+<body>
+$for(include-before)$
+$include-before$
+$endfor$
+$if(title)$
+<header>
+<h1 class="title">$title$</h1>
+$if(subtitle)$
+<h1 class="subtitle">$subtitle$</h1>
+$endif$
+$if(author)$
+<p class="author">
+<em>by $for(author)$$author$$sep$, $endfor$</em>
+</p>
+$endif$
+$if(date)$
+<p class="date"><em>Substantive revision $date$</em></p>
+$endif$
+</header>
+$endif$
+$if(toc)$
+<h2>Contents</h2>
+<nav id="$idprefix$TOC">
+$toc$
+</nav>
+$endif$
+$body$
+$for(include-after)$
+$include-after$
+$endfor$
+</body>
+</html>
