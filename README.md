@@ -1,6 +1,6 @@
 # Document templates
 
-# License
+## License
 
 Several distinct licenses are used for the templates in this repository because code from several others have been included. In particular:
 
