@@ -2,7 +2,7 @@
 
 ## License
 
-Several distinct licenses are used for the templates in this repository because code from several others have been included. In particular:
+Several distinct licenses are used for the templates in this repository because code and ideas from several others have been included. Specifically:
 
 - Any file derived from [jgm/pandoc-templates](https://github.com/jgm/pandoc-templates/) is dual licensed under the GPL and BSD 3-clause license. These are:
     - `default.html5`
