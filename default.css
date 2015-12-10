@@ -13,13 +13,6 @@ body {
 h1, h2, h3, h4, h5, h6 { font-family: "Lato", Helvetica, sans-serif; }
 h2 { border-bottom: 1px solid #ccc; }
 
-hr {
-    border: 0 none; /* must be first */
-    border-bottom: 1px solid #ccc;
-    border-top: 2px solid #ccc;
-    height: 4px;
-}
-
 a { text-decoration: none; }
 a:link { color: #0645AD; } /* from Wikipedia as of 2015 */
 a:visited { color: #7C7CA6; }
