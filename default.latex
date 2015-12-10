@@ -19,6 +19,7 @@ $endif$
   \usepackage[libertine]{newtxmath}
   $endif$
   % Custom packages below
+  \usepackage[scaled=.9]{sourcecodepro}
   \usepackage{datetime}
   \usepackage{array}
   \usepackage{paralist}
@@ -54,6 +55,9 @@ $endif$
     \usepackage{mathspec}
     $if(fontfamily)$$else$
     \usepackage{libertine}
+    $endif$
+    $if(monofont)$$else$
+    \usepackage[scaled=.9]{sourcecodepro}
     $endif$
   \else
     \usepackage{fontspec}
