@@ -1,9 +1,4 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
-$if(fontfamily)$
-\usepackage[$fontfamilyoptions$]{$fontfamily$}
-$else$
-\usepackage{lmodern}
-$endif$
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
@@ -17,6 +12,12 @@ $endif$
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
   \usepackage[utf8]{inputenc}
+  $if(fontfamily)$
+  \usepackage[$fontfamilyoptions$]{$fontfamily$}
+  $else$
+  \usepackage{libertine}
+  \usepackage[libertine]{newtxmath}
+  $endif$
   % Custom packages below
   \usepackage{datetime}
   \usepackage{array}
@@ -45,7 +46,15 @@ $if(euro)$
 $endif$
 \else % if luatex or xelatex
   \ifxetex
+    $if(fontfamily)$
+    \usepackage[$fontfamilyoptions$]{$fontfamily$}
+    $else$
+    \usepackage[libertine]{newtxmath}
+    $endif$
     \usepackage{mathspec}
+    $if(fontfamily)$$else$
+    \usepackage{libertine}
+    $endif$
   \else
     \usepackage{fontspec}
   \fi
