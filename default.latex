@@ -19,7 +19,6 @@ $endif$
   \usepackage[libertine]{newtxmath}
   $endif$
   % Custom packages below
-  \usepackage[scaled=.9]{sourcecodepro}
   \usepackage{datetime}
   \usepackage{array}
   \usepackage{paralist}
