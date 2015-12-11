@@ -18,25 +18,6 @@ $endif$
   \usepackage[mono=false]{libertine}
   \usepackage[libertine]{newtxmath}
   $endif$
-  % Custom packages below
-  \usepackage{datetime}
-  \usepackage{array}
-  \usepackage{paralist}
-  \usepackage{verbatim}
-  \usepackage{subfig}
-  % Use for example `\begin{figure}[H] ... \end{figure}` to place a
-  % figure exactly where it appears in the source.
-  \usepackage{float}
-  % Use for example `\begin{itemize}[noitemsep] ... \end{itemize}`
-  % to disable the space between items.
-  % Also useful for resuming a particular counter:
-  %     \begin{enumerate}[resume]
-  %         \item Text.
-  %     \end{enumerate}
-  % will reuse the last counter.  See
-  % http://tex.stackexchange.com/questions/1669/resuming-a-list/1670#1670
-  % for more.
-  \usepackage{enumitem}
 $if(euro)$
   \usepackage{eurosym}
 $endif$
