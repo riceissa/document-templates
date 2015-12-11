@@ -1,5 +1,9 @@
 # Document templates
 
+## Bugs
+
+- Using `sourcecodepro`, backticks seem to disappear in code environments.  In addition, with inline code, `\texttt{}` is used, which produces an open-quote, while in a block code environment, the backtick is used (when not using `sourcecodepro`).
+
 ## License
 
 Several distinct licenses are used for the templates in this repository because code and ideas from several others have been included. Specifically:
