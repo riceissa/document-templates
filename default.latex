@@ -32,7 +32,6 @@ $endif$
     \usepackage{mathspec}
     $if(fontfamily)$$else$
     \usepackage[mono=false]{libertine}
-    \usepackage[scaled]{beramono}
     $endif$
   \else
     \usepackage{fontspec}
