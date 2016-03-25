@@ -1,7 +1,7 @@
 body {
     background-color: #fff;
     color: #333;
-    font-family: "Bitstream Charter", Georgia, Times, serif;
+    font-family: "Bitstream Charter", Palatino, Georgia, Times, serif;
     line-height: 1.4;
     margin: 2em auto;
     max-width: 35em;
@@ -40,22 +40,21 @@ pre code {
 }
 
 table {
+    border-bottom: 2px solid #000;
     border-collapse: collapse;
-    border-color: #ccc;
-    border-width: 1px;
+    border-top: 2px solid #000;
+    margin: 0px auto; /* center table */
     width: 100%;
 }
 
 table th {
-    border-color: #ccc;
-    border-style: solid;
-    border-width: 1px;
-    padding: 3px;
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
 }
 
 table td {
-    border-color: #ccc;
-    border-style: solid;
-    border-width: 1px;
-    padding: 3px;
+    padding: 0px 10px;
+    vertical-align: top;
 }
