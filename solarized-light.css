@@ -1,7 +1,7 @@
 body {
-    background: #fdf6e3;
+    background-color: #fdf6e3;
     color: #586e75;
-    font-family: "Bitstream Charter", Georgia, Times, serif;
+    font-family: "Bitstream Charter", Palatino, Georgia, Times, serif;
     line-height: 1.4;
     margin: 2em auto;
     max-width: 35em;
@@ -11,7 +11,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: Lato, Helvetica, sans-serif; }
-h2 { border-bottom: 1px solid #93a1a1; }
 
 a { text-decoration: none; }
 a:link { color: #268bd2; }
@@ -40,24 +39,22 @@ pre code {
 }
 
 table {
+    border-bottom: 2px solid #586e75;
     border-collapse: collapse;
-    border-color: #93a1a1;
-    border-width: 1px;
-    width: 100%;
+    border-top: 2px solid #586e75;
+    margin: 0px auto; /* center table */
 }
 
 table th {
-    border-color: #93a1a1;
-    border-style: solid;
-    border-width: 1px;
-    padding: 3px;
+    border-bottom: 1px solid #586e75;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
 }
 
 table td {
-    border-color: #93a1a1;
-    border-style: solid;
-    border-width: 1px;
-    padding: 3px;
+    padding: 0px 10px;
+    vertical-align: top;
 }
 
 /*
