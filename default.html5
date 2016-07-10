@@ -29,7 +29,7 @@ $for(css)$
 $endfor$
 $else$
   <style type="text/css">
-body{background-color:#fff;color:#333;font-family:Charter,"Bitstream Charter",Palatino,Georgia,serif;line-height:1.4;margin:2em auto;max-width:35em;text-align:left;width:93%;word-wrap:break-word}h1,h2,h3,h4,h5,h6{font-family:Lato,Helvetica,sans-serif}blockquote{border-left:4px solid #ccc;color:#444;margin:0;padding:0 0 0 16px}code{background-color:#eee;padding-left:4px;padding-right:4px}pre code{display:block;line-height:1.2em;max-height:30em;overflow:auto;padding:10px}table{border-bottom:2px solid #333;border-collapse:collapse;border-top:2px solid #333;margin:0 auto}table th{border-bottom:1px solid #333;font-weight:normal;padding:0 10px;vertical-align:top}table td{padding:0 10px;vertical-align:top}
+body{background-color:#fff;color:#333;font-family:Charter,"Bitstream Charter",Palatino,Georgia,serif;line-height:1.4;margin:2em auto;max-width:35em;text-align:left;width:93%;word-wrap:break-word}h1,h2,h3,h4,h5,h6{font-family:Lato,Helvetica,sans-serif}blockquote{border-left:4px solid #ccc;color:#444;margin:0;padding:0 0 0 16px}code{background-color:#eee;padding-left:4px;padding-right:4px}pre code{display:block;line-height:1.2em;max-height:30em;overflow:auto;padding:10px}img{max-width:100%;height:auto}table{border-bottom:2px solid #333;border-collapse:collapse;border-top:2px solid #333;margin:0 auto}table th{border-bottom:1px solid #333;font-weight:normal;padding:0 10px;vertical-align:top}table td{padding:0 10px;vertical-align:top}
   </style>
 $endif$
 $if(math)$
