@@ -16,7 +16,7 @@ blockquote {
     border-left: 4px solid #ccc;
     color: #444;
     margin: 0px;
-    padding: 0px 0px 0px 16px; /* top right bottom left */
+    padding-left: 16px;
 }
 
 code {
