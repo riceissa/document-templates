@@ -23,6 +23,7 @@ code {
     background-color: #f9f9f9;
     padding-left: 4px;
     padding-right: 4px;
+    word-wrap: normal;
 }
 
 pre code {
