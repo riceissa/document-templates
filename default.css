@@ -31,6 +31,7 @@ pre code {
     max-height: 30em;
     overflow: auto;
     padding: 10px;
+    word-wrap: normal;
 }
 
 img {
